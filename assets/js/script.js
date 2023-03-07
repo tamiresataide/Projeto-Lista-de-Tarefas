@@ -9,7 +9,7 @@ function clearInput(){
 
 
 function enter(e){
-   if (e.code === 'Enter'){
+   if (e.key === 'Enter'){
       var text = document.createTextNode(taskText);
       var item = document.createElement('li');
       var check = document.createElement('input');
